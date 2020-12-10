@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.vscode
+
+# dependencies
+\marching-squares/node_modules
+\marching-squares/.pnp
+\marching-squares/.pnp.js
+
+# testing
+\marching-squares/coverage
+
+# production
+\marching-squares/build
+
+# misc
+\marching-squares.DS_Store
+\marching-squares.env.local
+\marching-squares.env.development.local
+\marching-squares.env.test.local
+\marching-squares.env.production.local
+
+\marching-squares/npm-debug.log*
+\marching-squares/yarn-debug.log*
+\marching-squares/yarn-error.log*

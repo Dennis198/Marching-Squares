@@ -1,0 +1,18 @@
+.marchingsquare_canvas__2dplane{
+    border: 1px solid black;
+}
+
+.marchingsquare__speed__slider{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.marchingsquare__speed__slider > h4{
+    margin-bottom:0px;
+}
+
+.marchingsquare__speed__slider__label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
