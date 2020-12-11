@@ -10,9 +10,6 @@
 # testing
 \marching-squares/coverage
 
-# production
-\marching-squares/build
-
 # misc
 \marching-squares.DS_Store
 \marching-squares.env.local
