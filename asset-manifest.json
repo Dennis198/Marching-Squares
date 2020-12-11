@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Marching-Squares/static/css/main.d6c6048e.chunk.css",
+    "main.js": "/Marching-Squares/static/js/main.ccacc873.chunk.js",
+    "main.js.map": "/Marching-Squares/static/js/main.ccacc873.chunk.js.map",
+    "runtime-main.js": "/Marching-Squares/static/js/runtime-main.62bed84e.js",
+    "runtime-main.js.map": "/Marching-Squares/static/js/runtime-main.62bed84e.js.map",
+    "static/js/2.38586de3.chunk.js": "/Marching-Squares/static/js/2.38586de3.chunk.js",
+    "static/js/2.38586de3.chunk.js.map": "/Marching-Squares/static/js/2.38586de3.chunk.js.map",
+    "static/js/3.4cc9b57f.chunk.js": "/Marching-Squares/static/js/3.4cc9b57f.chunk.js",
+    "static/js/3.4cc9b57f.chunk.js.map": "/Marching-Squares/static/js/3.4cc9b57f.chunk.js.map",
+    "index.html": "/Marching-Squares/index.html",
+    "static/css/main.d6c6048e.chunk.css.map": "/Marching-Squares/static/css/main.d6c6048e.chunk.css.map",
+    "static/js/2.38586de3.chunk.js.LICENSE.txt": "/Marching-Squares/static/js/2.38586de3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62bed84e.js",
+    "static/js/2.38586de3.chunk.js",
+    "static/css/main.d6c6048e.chunk.css",
+    "static/js/main.ccacc873.chunk.js"
+  ]
+}
