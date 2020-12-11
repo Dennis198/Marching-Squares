@@ -33,6 +33,15 @@ export default class Field{
         }
     }
 
+    //Sets all the Cells to 1 (Background blue)
+    setAllCellstoBackGround(){
+        for(let i=0;i<this.field.length;i++){
+            for(let j=0;j<this.field[0].length;j++){
+                this.field[i][j]=1;
+            }
+        }
+    }
+
     //Draws the Background of the Canvas (Only Points) and Background
     drawBackGround(){
         var canvas = document.getElementById("2d-plane");
@@ -72,7 +81,7 @@ export default class Field{
     drawAnimation(index){
         let i = Math.floor(index/this.cols);
         let j = Math.floor(index%this.cols);
-        if(i===this.field.length-2&&j===this.field[0].length-2)return false;
+        if(i===this.field.length-2&&j===this.field[0].length-1)return false;
         let x = j*this.width;
         let y = i*this.width;
         this.sqaure.drawLines(x,y,this.field[i][j],this.field[i][j+1],this.field[i+1][j+1],this.field[i+1][j]);

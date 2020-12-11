@@ -184,6 +184,12 @@ export default class MarchingSquare extends React.Component{
         };
     }
 
+    //Sets all the Cells to 1 (Background blue)
+    setAllpointsToBackGround(){
+        this.state.field.setAllCellstoBackGround();
+        this.reset();
+    }
+
     //Sets the Variable on Mouse Down to true/ Mouse UP to false
     allowSwitchColorOnMoveOnCanvas(){
         this.setState({mouseDown: !this.state.mouseDown})
@@ -194,10 +200,11 @@ export default class MarchingSquare extends React.Component{
             <div className="marchingsquare">
                 <h1>Marching Square</h1>
                 <Button disabled={this.state.isRunning} variant="outlined" onClick={()=>this.draw()}>Fast Compute</Button>
-                <Button disabled={this.state.isRunning}variant="outlined" onClick={()=>this.drawAnimate()}>Animate</Button>
+                <Button disabled={this.state.isRunning} variant="outlined" onClick={()=>this.drawAnimate()}>Animate</Button>
                 <Button disabled={this.state.isRunning} variant="outlined" onClick={()=>this.drawNextStep()}>Next Step</Button>
                 <Button variant="outlined"onClick={()=>this.stop()}>Stop</Button>
                 <Button disabled={this.state.isRunning}variant="outlined" onClick={()=>this.reset()}>Reset</Button>
+                <Button disabled={this.state.isRunning}variant="outlined" color="Primary" onClick={()=>this.setAllpointsToBackGround()}>All Blue</Button>
                 <Button disabled={this.state.isRunning}variant="outlined" onClick={()=>this.setRandomPoints()}>Random Points</Button>
                 <div className="marchingsquare__speed__slider">
                     <div className="marchingsquare__speed__slider__label">
